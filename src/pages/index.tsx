@@ -48,10 +48,7 @@ export default function Home(): JSX.Element {
                 Building effective Physical AI systems requires understanding several foundational principles that differentiate them from purely software-based AI.
               </li>
             </ul>
-            <div className={styles.welcomeVisuals}>
-              <img src="/img/undraw_docusaurus_tree.svg" alt="Physical AI Concepts" className={styles.welcomeImage} />
-              <p className={styles.welcomeEmoji}>🤖🧠💡🛠️</p>
-            </div>
+
           </div>
         </section>
         <HomepageFeatures />

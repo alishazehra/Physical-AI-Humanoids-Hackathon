@@ -41,7 +41,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg', // FIXME: Replace with your project's social card
+    image: 'img/physical-ai-social-card.jpg', // FIXME: Replace with your project's social card, ideally a Physical AI themed one.
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -104,7 +104,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI Book Project. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI Book Project.\`,`
     },
     prism: {
       theme: prismThemes.github,

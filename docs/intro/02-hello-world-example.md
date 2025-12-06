@@ -1,11 +1,11 @@
 ---
-title: "A Simple fundamental of learning  Physical AI"
+title: "📕A Simple fundamental of learning  Physical AI"
 description: "Expand on the fundamental concepts of Physical AI with a basic hands-on example."
 ---
 
-# A Simple 'Hello World' in Physical AI
+# 📕A Simple codebase of Physical AI
 
-In the previous lesson, we introduced the concept of Physical AI. Now, let's delve a bit deeper into what a "Hello World" example truly means in this context. Unlike purely software "Hello World" programs that just print text, a Physical AI "Hello World" often involves a simple interaction with a simulated or real physical environment.
+In the previous lesson, we introduced the concept of Physical AI. Now, let's delve a bit deeper into  a "Hello World" example in this context. Unlike purely software "Hello World" programs that just print text, a Physical AI "Hello World" often involves a simple interaction with a simulated or real physical environment.
 
 ## 🧠Core Concepts
 
