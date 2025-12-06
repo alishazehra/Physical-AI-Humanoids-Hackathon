@@ -1,0 +1,58 @@
+/**
+ * CSS styles for the homepage.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeSection {
+  padding: 2rem 0;
+  background-color: var(--ifm-background-color); /* Use Docusaurus theme background */
+}
+
+.welcomeTitle {
+  color: #28a745; /* Green color */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.welcomeList {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px; /* Limit width for better readability */
+  text-align: left;
+}
+
+.welcomeList li {
+  position: relative;
+  margin-bottom: 0.8rem;
+  padding-left: 1.8rem; /* Space for custom bullet */
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.welcomeList li::before {
+  content: '🤖'; /* Custom bullet point (robot emoji) */
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary); /* Use primary theme color for bullet */
+  font-size: 1.2rem;
+  line-height: 1.6; /* Align with text */
+}
