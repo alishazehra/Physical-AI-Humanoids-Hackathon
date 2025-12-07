@@ -57,6 +57,12 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Book',
+          href: "/intro/what-is-physical-ai"
+
+        },
+        {
+          type: 'custom-LoginOrLogoutButton',
+          position: 'right',
         },
         {
           href: 'https://github.com/alishazehra/Physical-AI-Humanoids-Hackathon.git', // FIXME: Update with your repo URL
@@ -104,7 +110,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI Book Project.\`,`
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI Book Project.\``,
     },
     prism: {
       theme: prismThemes.github,
